@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 
-public class NewTest {
+public class installAppDemo {
 	AndroidDriver driver;
 	@Test
 	public void f() {
