@@ -2,6 +2,9 @@
 package hybridAppDemo;
 
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.google.common.base.Verify;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -26,6 +29,7 @@ public class tapDemo {
 	  System.out.println("App opened");
 	  AndroidElement btn = (AndroidElement)driver.findElementByXPath("//android.widget.TextView[@text='Battery']");
 	  ElementOption(btn);
+
   }
   public void ElementOption(AndroidElement androidElement)
   {
